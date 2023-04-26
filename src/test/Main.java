@@ -310,7 +310,7 @@ public class Main {
             cnt *= 2;
         }
 
-        try(Writer writer = new BufferedWriter(new FileWriter("resultsAlgo.txt"))){
+        try(Writer writer = new BufferedWriter(new FileWriter("results\\measuredTime.txt"))){
             String stringResult = Arrays.toString(bruteForceAlgoTime).replaceAll("[\\[\\]]", "") + "\n";
             writer.write(stringResult, 0, stringResult.length());
 
