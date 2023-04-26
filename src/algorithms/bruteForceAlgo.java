@@ -1,3 +1,8 @@
+package algorithms;
+
+import algorithms.Point;
+import algorithms.Rectangle;
+
 public class bruteForceAlgo {
     private final Rectangle[] rectangles;
 

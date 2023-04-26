@@ -1,3 +1,9 @@
+package algorithms;
+
+import algorithms.Point;
+import algorithms.Rectangle;
+import algorithms.helpFunction;
+
 public class mapAlgo {
     private final Rectangle[] rectangles;
     private final int[][] map;

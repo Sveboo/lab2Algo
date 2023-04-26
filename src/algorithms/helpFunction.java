@@ -1,3 +1,7 @@
+package algorithms;
+
+import algorithms.Rectangle;
+
 import java.util.*;
 
 public class helpFunction {
