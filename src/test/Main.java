@@ -275,7 +275,7 @@ public class Main {
             Object[] compress;
 
             Rectangle[] rectangles = getRectangles(cnt);
-            Point[] points = getPoints(cnt, 10000);
+            Point[] points = getPoints(cnt, 100000);
 
             start = System.nanoTime();
             bruteForceAlgo(rectangles, points);
